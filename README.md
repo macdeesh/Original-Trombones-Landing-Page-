@@ -12,7 +12,12 @@ This is a solution to the [Build a Product Landing Page](https://www.freecodecam
 
 #### What I learned
 
-I learned in this project how to insert a Youtube video in my html ```<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>``` I insert this code, which i get from the Embed option in Youtube, inside a div in my html. 
+I learned in this project how to insert a Youtube video in my html. I insert the code, which i get from the Embed option in Youtube, inside a div in my html :
+
+```html
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```  
+
 To align the Features and the icones, I learned how to use the Grid display : 
 
   ```css
