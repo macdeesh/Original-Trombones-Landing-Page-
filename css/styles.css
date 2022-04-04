@@ -1,0 +1,277 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  margin: auto;
+  background-color: #FAF3F3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding-top: 1rem;
+  position: fixed;
+  overflow: hidden;
+  background-color: #FAF3F3;
+  top: 0;
+  width: 100%;
+}
+
+footer {
+  background-color: #DFDFDE;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+p {
+  margin-top: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.logo-nav-bar {
+  margin-left: 3rem;
+}
+
+.logo {
+  max-width: 300px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-right: 4rem;
+  color: #000;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #706f6f;
+}
+
+.form-section {
+  margin: 2rem;
+}
+
+.email-form {
+  text-align: center;
+}
+
+.label-form {
+  font-size: 1.8rem;
+}
+
+.email-input {
+  width: 300px;
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.submit-input {
+  background-color: #f33f6f;
+  color: #fff;
+  width: 150px;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.submit-input:hover {
+  background-color: #ff7397;
+}
+
+.features-grid {
+  max-width: 900px;
+  margin: 2rem;
+  display: grid;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+}
+
+.icone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.feature {
+  margin-left: 2rem;
+}
+
+.fa-solid {
+  font-size: 3rem;
+  color: #f33f6f;
+}
+
+.card-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  flex-direction: row;
+  margin: 3rem 0;
+}
+
+.card {
+  max-width: 20rem;
+  margin: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+}
+
+.card-header {
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  background-color: #DFDFDE;
+}
+
+.btn-price {
+  background-color: #f33f6f;
+  color: #fff;
+  width: 100px;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin: 1rem 0;
+}
+
+.btn-price:hover {
+  background-color: #ff7397;
+}
+
+.footer-item {
+  text-decoration: none;
+  margin-right: 4rem;
+  color: #000;
+  transition-duration: 0.4s;
+}
+
+.footer-item:hover {
+  text-decoration: underline;
+  color: #706f6f;
+}
+
+.Copyright {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 885px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    margin-top: 7rem
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin: 0.3rem;
+  }
+
+  .logo-nav-bar {
+    margin: auto;
+  }
+
+  .nav-link {
+    margin: 0;
+  }
+
+  .label-form {
+    font-size: 1.2rem;
+  }
+
+  .icone {
+    display: none;
+  }
+
+  .features-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .feature {
+    margin: auto;
+  }
+
+  .video-section {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  div.footer-list ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer-item {
+    margin: 0 1rem;
+  }
+}
