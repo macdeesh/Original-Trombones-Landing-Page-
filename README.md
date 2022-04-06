@@ -14,7 +14,7 @@ This is a solution to the [Build a Product Landing Page](https://www.freecodecam
 
 I learned in this project how to insert a Youtube video in my html. I insert the code, which i get from the Embed option in Youtube, inside a div in my html :
 
-```html
+```
 <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```  
 
@@ -26,10 +26,12 @@ To align the Features and the icones, I learned how to use the Grid display :
    justify-content: space-around;
    align-content: center;
    align-items: center;
-   grid-template-columns: auto auto;  <!--    to make 2 colums of grid -->
-   gap: 2rem; <!--    to make a space between the colums -->
   } 
   ```
+  -  ```grid-template-columns: auto auto;``` to make 2 colums of grid.
+  -  ```gap: 2rem;``` to make a space between the colums.
+
+
   For the navigation bar to make it always be at the top of the viewport, I learned how to use the Fixed position. The navigation bar was inside the Header so i positioned the all the header div:
   
   ```css
