@@ -1,4 +1,4 @@
-#Product Landing Page for FreeCodeCamp
+#Product-Landing-Page-for-FreeCodeCamp
 Responsive Web Design Project for freeCodeCamp
 
 This is a solution to the [Build a Product Landing Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page). 
@@ -16,7 +16,7 @@ I learned in this project how to insert a Youtube video in my html. I insert the
 <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```  
 
-To align the Features and the icones, I learned how to use the Grid display : 
+ To align the Features and the icones, I learned how to use the Grid display : 
 
   ```css
  .features-grid {
@@ -30,7 +30,7 @@ To align the Features and the icones, I learned how to use the Grid display :
   -  ```gap: 2rem;``` to make a space between the colums.
 
 
-  For the navigation bar to make it always be at the top of the viewport, I learned how to use the Fixed position. The navigation bar was inside the Header so i positioned the all the header div:
+  For the navigation bar to make it always be at the top of the viewport, I learned how to use the Fixed position. The navigation bar was inside the Header   so i positioned the all the header div:
   
   ```css
   header {
