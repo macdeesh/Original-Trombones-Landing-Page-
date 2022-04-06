@@ -1,16 +1,14 @@
 #Product Landing Page for FreeCodeCamp
 Responsive Web Design Project for freeCodeCamp
 
-## FreeCodeCamp - Product Landing Page
-
 This is a solution to the [Build a Product Landing Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page). 
 
-### Links
+## Links
 
 - Solution URL: [https://github.com/macdeesh/Original-Trombones-Landing-Page-]
 - Live Site URL: [https://macdeesh.github.io/Original-Trombones-Landing-Page-/]
 
-#### What I learned
+## What I learned
 
 I learned in this project how to insert a Youtube video in my html. I insert the code, which i get from the Embed option in Youtube, inside a div in my html :
 
@@ -47,7 +45,7 @@ To align the Features and the icones, I learned how to use the Grid display :
   }
   ```
   
-##### Author
+## Author
 
 - Github - [Macdeesh](https://github.com/macdeesh)
 - Twitter - [@Macdiish](https://twitter.com/Macdiish)
